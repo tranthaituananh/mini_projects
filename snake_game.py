@@ -1,4 +1,4 @@
-import sys, time, random
+import sys, time, random, os
 from os import system, name 
 
 #Clean terminal 
