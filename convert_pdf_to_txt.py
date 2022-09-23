@@ -8,6 +8,13 @@ def clear():
     else:
         _ = system('clear')
 clear()
+
+try:
+    import PySimpleGUI as sg
+    from pytube import YouTube
+except ImportError:
+    os.system("pip install PyPDF2")
+
 print('---------- Convert PDF to TXT -----------')
 print('--- Made with ♥️ by Tran Thai Tuan Anh ---')
 
