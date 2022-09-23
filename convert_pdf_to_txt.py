@@ -1,4 +1,3 @@
-import PyPDF2
 import os
 from os import system, name
 
@@ -10,8 +9,7 @@ def clear():
 clear()
 
 try:
-    import PySimpleGUI as sg
-    from pytube import YouTube
+    import PyPDF2
 except ImportError:
     os.system("pip install PyPDF2")
 
