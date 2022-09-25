@@ -46,5 +46,5 @@ while(1):
         else: 
             print(" City Not Found ") 
     else:
-        print("-" * 50,"Goodbye!", "-" * 50)
+        print("-" * 42,"Goodbye!", "-" * 41)
         exit()
